@@ -9,4 +9,5 @@ def calc(a, b):
     difference = a - b
     print(difference)
 
-    
+    multiplication = a * b
+    print(multiplication)
