@@ -15,5 +15,8 @@ def calc(a, b):
     divide = a / b
     print(divide)
 
-    FinalValues = FinalValues[sum, difference, multiplication, divide]
+    FinalValues = [sum, difference, multiplication, divide]
     print(FinalValues)
+
+    SumOfList = FinalValues[0] + FinalValues[1] + FinalValues[2] + FinalValues[3]
+    print(SumOfList)
