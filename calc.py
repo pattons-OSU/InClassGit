@@ -11,3 +11,6 @@ def calc(a, b):
 
     multiplication = a * b
     print(multiplication)
+
+    divide = a / b
+    print(divide)
