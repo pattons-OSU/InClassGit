@@ -14,3 +14,5 @@ def calc(a, b):
 
     divide = a / b
     print(divide)
+
+    FinalValues = FinalValues[sum, difference, multiplication, divide]
