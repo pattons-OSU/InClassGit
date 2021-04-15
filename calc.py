@@ -16,3 +16,4 @@ def calc(a, b):
     print(divide)
 
     FinalValues = FinalValues[sum, difference, multiplication, divide]
+    print(FinalValues)
