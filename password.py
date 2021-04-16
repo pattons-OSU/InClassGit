@@ -1,4 +1,6 @@
 #! /usr/bin/env python3
+from string import *
+from random import *
 
 """
     Simeon Patton
@@ -8,7 +10,9 @@
         c) Create a password Generator by use of random characters given a number from the user.
 """
 
+
 def password(a):
+    pass
 
 
 def a_input():
