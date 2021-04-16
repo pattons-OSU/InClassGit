@@ -7,7 +7,7 @@
 
         b) Create a program to find all of the nubers that a number is evenly divisible by.
 
-            Some code inspiration from GeeksforGeeks @ 
+            Some code inspiration from GeeksforGeeks @
             https://www.geeksforgeeks.org/find-divisors-natural-number-set-1/
 """
 
