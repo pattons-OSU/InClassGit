@@ -20,6 +20,6 @@ def a_input():
 
 if __name__ == "__main__":
     print("")
-    a = a_input()
+    ##a = a_input()
     divisor(a)
     print("")
