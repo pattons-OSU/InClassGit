@@ -1,6 +1,6 @@
 #! /usr/bin/env python3
-from string import *
-from random import *
+import string
+import random
 
 """
     Simeon Patton
@@ -8,11 +8,19 @@ from random import *
     In class activity 2 - Git in action
 
         c) Create a password Generator by use of random characters given a number from the user.
+
+            Some code inspiration from pynative @
+            https://pynative.com/python-generate-random-string/
+
 """
 
 
 def password(a):
-    pass
+    characters = string.ascii_lowercase
+    for i in range(a):
+        result = ''.join(random.choice(characters))
+        print(result)
+
 
 
 def a_input():
