@@ -20,3 +20,10 @@ def calc(a, b):
 
     SumOfList = FinalValues[0] + FinalValues[1] + FinalValues[2] + FinalValues[3]
     print(SumOfList)
+
+a_input = input("Please enter a number 'a': ")
+a_input = int(a_input)
+print("")
+b_input = input("Please enter a number 'b': ")
+print("")
+b_input = int(b_input)
