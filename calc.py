@@ -4,23 +4,22 @@
 
 def calc(a, b):
     sum = a + b
-    f"The sum of {a} + {b} is {sum}."
-    ##print(sum)
-
+    print(f"The sum of {a} + {b} is {sum}.")
+    
     difference = a - b
-    print(difference)
+    print(f"The difference of {a} and {b} is {difference}.")
 
     multiplication = a * b
-    print(multiplication)
+    print(f"{a} multipled by {b} is {multiplication}.")
 
     divide = a / b
-    print(divide)
+    print(f"{a} divided by {b} is {divide}.")
 
     FinalValues = [sum, difference, multiplication, divide]
-    print(FinalValues)
+    print(f"These values in list form are {FinalValues}.")
 
     SumOfList = FinalValues[0] + FinalValues[1] + FinalValues[2] + FinalValues[3]
-    print(SumOfList)
+    print(f"The sum of the listed values is {SumOfList}.")
 
 def a_input():
     a = input("Please enter a number 'a': ")
@@ -34,8 +33,9 @@ def b_input():
     b = int(b)
     return int(b)
 
-
-a = a_input()
-b = b_input()
-calc(a,b)
-print("")
+if __name__ == "__main__":
+    print("")
+    a = a_input()
+    b = b_input()
+    calc(a,b)
+    print("")
