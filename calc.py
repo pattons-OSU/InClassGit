@@ -1,5 +1,13 @@
-## Simeon Patton
-## 
+#! /usr/bin/env python3
+
+"""
+    Simeon Patton
+    OSU CS362 Spring 2021
+    In class activity 2 - Git in action
+
+        a) Create a caluclator program that handles sum, difference, multiplication, and division.
+        Push this program to GitHub in multiple commits.
+"""
 
 
 def calc(a, b):
