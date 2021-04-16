@@ -16,7 +16,7 @@ import random
 
 
 def password(a):
-    characters = string.ascii_lowercase
+    characters = string.ascii_letters
     print(f"Your Random password with {a} number of characters is:")
     print("")
     for i in range(a):
