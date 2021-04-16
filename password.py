@@ -8,6 +8,9 @@
         c) Create a password Generator by use of random characters given a number from the user.
 """
 
+def password(a):
+
+
 def a_input():
     a = input("Please enter the number of characters that your password should be: ")
     a = int(a)
@@ -17,5 +20,5 @@ def a_input():
 if __name__ == "__main__":
     print("")
     a = a_input()
-    divisor(a)
+    password(a)
     print("")
