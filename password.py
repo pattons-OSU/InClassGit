@@ -7,3 +7,10 @@
 
         c) Create a password Generator by use of random characters given a number from the user.
 """
+
+
+if __name__ == "__main__":
+    print("")
+    a = a_input()
+    divisor(a)
+    print("")
