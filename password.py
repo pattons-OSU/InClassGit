@@ -17,17 +17,19 @@ import random
 
 def password(a):
     characters = string.ascii_lowercase
+    print(f"Your Random password with {a} number of characters is:")
+    print("")
     for i in range(a):
         result = ''.join(random.choice(characters))
-        print(result)
-
-
+        print(result, end = '')
+    print("")
 
 def a_input():
     a = input("Please enter the number of characters that your password should be: ")
     a = int(a)
     print("")
     return int(a)
+
 
 if __name__ == "__main__":
     print("")
